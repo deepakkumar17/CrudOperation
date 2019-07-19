@@ -10,7 +10,7 @@
         <td>{{ pdt.id}}</td>
         <td>{{ pdt.title}}</td>
         <td>{{ pdt.code}}</td>
-        <td [routerLink]="['/updateProduct', pdt.id]"><strong><button class="btn btn-info">Update</button></strong></td>
-        <td (click)="deleteProduct(pdt.id)"><strong><button class="btn btn-danger">Delete</button></strong></td>
+        <td [routerLink]="['/updateProduct', pdt.id]"><strong><button class="btn btn-info">UPDATE</button></strong></td>
+        <td (click)="deleteProduct(pdt.id)"><strong><button class="btn btn-danger">DELETE</button></strong></td>
     </tr>
 </table>
